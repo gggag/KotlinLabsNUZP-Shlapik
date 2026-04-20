@@ -15,8 +15,7 @@ repositories {
 }
 
 dependencies {
-    implementation(Versions.library)
-    implementation(compose.desktop.currentOs)
+    implementation(compose.desktop.currentOs) // якщо треба
     testImplementation(kotlin("test"))
 }
 
