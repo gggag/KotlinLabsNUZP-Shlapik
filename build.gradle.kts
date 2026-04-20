@@ -69,7 +69,7 @@ tasks.test {
 }
 
 tasks.withType<KotlinCompile> {
-    kotlinOptions.jvmTarget = "1.8"
+    kotlinOptions.jvmTarget = "17"
 }
 
 application {
@@ -89,5 +89,5 @@ tasks.withType<Test> {
 }
 
 kotlin {
-    jvmToolchain(17)
+    jvmToolchain(Versions.jvmLevel)
 }
