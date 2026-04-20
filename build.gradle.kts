@@ -89,5 +89,5 @@ tasks.withType<Test> {
 }
 
 kotlin {
-    jvmToolchain(Versions.jvmLevel)
+    jvmToolchain(17)
 }

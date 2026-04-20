@@ -15,6 +15,7 @@ repositories {
 }
 
 dependencies {
+    implementation("com.diacht.ktest:library:1.0.7")
     implementation(compose.desktop.currentOs) // якщо треба
     testImplementation(kotlin("test"))
 }
