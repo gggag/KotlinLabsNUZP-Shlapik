@@ -10,12 +10,11 @@ version = "1.0-SNAPSHOT"
 repositories {
     mavenCentral()
     maven("file://${rootDir}/.m2repo/")
-
 }
 
 dependencies {
     implementation(Versions.library)
-    implementation(compose.desktop.currentOs) // якщо треба
+    implementation(compose.desktop.currentOs)
     testImplementation(kotlin("test"))
 }
 
